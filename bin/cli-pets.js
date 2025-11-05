@@ -16,7 +16,7 @@ program.command("adopt")
   .description("Adopt a pet")
   .action(adopt)
 
-program.command("myPet <species>")
+program.command("myPet")
   .description("renders pet")
   .action(renderPet)
 
