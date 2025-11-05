@@ -1,0 +1,31 @@
+{
+  "name": "cli-pets",
+  "version": "1.0.0",
+  "main": "cli-pets.js",
+  "bin": {
+    "cli-pets": "./bin/cli-pets.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node ./bin/cli-pets.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pets",
+    "terminal",
+    "fun",
+    "cli",
+    "terminal-pets",
+    "animals",
+    "pet",
+    "terminal-animals"
+  ],
+  "author": "Leonardo Garzon <lgarzonlc@gmail.com>",
+  "license": "MIT",
+  "description": "Terminal Pets you can have fun with",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "commander": "^14.0.2",
+    "inquirer": "^12.10.0"
+  }
+}
